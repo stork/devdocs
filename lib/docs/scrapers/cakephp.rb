@@ -21,8 +21,13 @@ module Docs
       We are not endorsed by or affiliated with CakePHP.
     HTML
 
+    version '4.0' do
+      self.release = '4.0.5'
+      self.base_url = "https://api.cakephp.org/#{self.version}/"
+    end
+
     version '3.8' do
-      self.release = '3.8.3'
+      self.release = '3.8.11'
       self.base_url = "https://api.cakephp.org/#{self.version}/"
     end
 
@@ -37,17 +42,17 @@ module Docs
     end
 
     version '3.5' do
-      self.release = '3.5.15'
+      self.release = '3.5.18'
       self.base_url = "https://api.cakephp.org/#{self.version}/"
     end
 
     version '3.4' do
-      self.release = '3.4.13'
+      self.release = '3.4.14'
       self.base_url = "https://api.cakephp.org/#{self.version}/"
     end
 
     version '3.3' do
-      self.release = '3.3.15'
+      self.release = '3.3.16'
       self.base_url = "https://api.cakephp.org/#{self.version}/"
     end
 
@@ -57,27 +62,77 @@ module Docs
     end
 
     version '3.1' do
-      self.release = '3.1.13'
+      self.release = '3.1.14'
+      self.base_url = "https://api.cakephp.org/#{self.version}/"
+    end
+
+    version '3.0' do
+      self.release = '3.0.19'
       self.base_url = "https://api.cakephp.org/#{self.version}/"
     end
 
     version '2.10' do
-      self.release = '2.10.3'
+      self.release = '2.10.20'
       self.base_url = "https://api.cakephp.org/#{self.version}/"
     end
 
     version '2.9' do
-      self.release = '2.9.4'
+      self.release = '2.9.9'
       self.base_url = "https://api.cakephp.org/#{self.version}/"
     end
 
     version '2.8' do
-      self.release = '2.8.8'
+      self.release = '2.8.9'
       self.base_url = "https://api.cakephp.org/#{self.version}/"
     end
 
     version '2.7' do
       self.release = '2.7.11'
+      self.base_url = "https://api.cakephp.org/#{self.version}/"
+    end
+
+    version '2.6' do
+      self.release = '2.6.13'
+      self.base_url = "https://api.cakephp.org/#{self.version}/"
+    end
+
+    version '2.5' do
+      self.release = '2.5.9'
+      self.base_url = "https://api.cakephp.org/#{self.version}/"
+    end
+
+    version '2.4' do
+      self.release = '2.4.10'
+      self.base_url = "https://api.cakephp.org/#{self.version}/"
+    end
+
+    version '2.3' do
+      self.release = '2.3.10'
+      self.base_url = "https://api.cakephp.org/#{self.version}/"
+    end
+
+    version '2.2' do
+      self.release = '2.2.9'
+      self.base_url = "https://api.cakephp.org/#{self.version}/"
+    end
+
+    version '2.1' do
+      self.release = '2.1.5'
+      self.base_url = "https://api.cakephp.org/#{self.version}/"
+    end
+
+    version '2.0' do
+      self.release = '2.0.6'
+      self.base_url = "https://api.cakephp.org/#{self.version}/"
+    end
+
+    version '1.3' do
+      self.release = '1.3.21'
+      self.base_url = "https://api.cakephp.org/#{self.version}/"
+    end
+
+    version '1.2' do
+      self.release = '1.2.12'
       self.base_url = "https://api.cakephp.org/#{self.version}/"
     end
 
